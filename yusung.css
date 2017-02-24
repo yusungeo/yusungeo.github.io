@@ -1,0 +1,154 @@
+html{
+  font-size: 20px;
+  color: #333333;
+  line-height: 1.5;
+  letter-spacing: -0.002em;
+}
+.header {
+  width: 100%;
+  height: 70px;
+  margin-left: 10px;
+}
+
+.header > h1 {
+  float: left;
+  font-size: 32px;
+  line-height: 70px;
+}
+
+.gnb {
+  float: right;
+  overflow: hidden;
+  list-style: none;
+  margin-right: 20px;
+}
+
+.gnb > li {
+  float: left;
+  margin-right: 30px;
+}
+
+.gnb > li:last-child {
+  margin-right: 0;
+}
+
+.gnb >li > a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 70px;
+}
+
+.gnb > li > a:hover {
+  opacity: 0.5;
+}
+
+/*-------------------*/
+
+.landing {
+  width: 100%;
+  height: 600px;
+  color: #ffffff;
+  text-align: center;
+  background-image: url(sdt1.jpg);
+  opacity: 0.8;
+  background-size: cover;
+  background-position: center center;
+}
+
+.landing h2 {
+  padding-top: 150px;
+  margin-bottom: 70px;
+  font-size: 60px;
+}
+.landing p {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/*-----------------*/
+.images {
+  margin: auto;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  overflow: hidden;
+  margin-left:auto;
+}
+
+.image-box {
+  display: inline-block;
+}
+
+.image-box: last-child {
+  margin-right:5px;
+}
+
+.image-box > img {
+  width: 250px;
+  height: 200px;
+  margin-bottom: 20px;
+  border-style: groove;
+  border-width: 10px;
+  border-color: #FFFFF2;
+}
+
+.image-img {
+  width: 250px;
+  height: 200px;
+  border-style: groove;
+  border-width: 10px;
+  margin-bottom:20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-color: #FFFFF2;
+}
+
+/* -------------------------*/
+.container {
+  text-align: center;
+}
+
+.contacts {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contacts > h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.contacts > p {
+  margin-bottom: 20px;
+}
+
+.contact {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+label, .contact > h5 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+label {
+  margin-right: 10px;
+}
+
+textarea {
+  display: block;
+}
+
+/*--------------------------*/
+
+.footer {
+  font-size: 10px;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #333333;
+}
